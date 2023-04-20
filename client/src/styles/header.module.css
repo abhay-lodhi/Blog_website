@@ -1,0 +1,26 @@
+header{
+    width: 100%;
+    height: 80px;
+    padding: 40px;
+   
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    /* margin-bottom: 50px; */
+    font-size: 1.5rem;
+    background-color: #0D7377;
+}
+
+
+    
+nav{
+    display: flex;
+    gap:20px;
+    background-color: inherit;
+}
+
+a{
+    text-decoration: node;
+    background-color: inherit;
+    
+}

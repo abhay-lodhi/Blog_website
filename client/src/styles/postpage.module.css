@@ -1,0 +1,64 @@
+.main{
+/* justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column; */
+padding: 10px 100px;
+}
+
+.img{
+    max-height:fit-content;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  
+    display: flex;
+    overflow: hidden;
+}
+
+.image{
+   max-height: 350px ;
+   width: 70%;
+   height: fit-content ;
+   object-fit: cover;
+   object-position: center center;
+}
+
+
+a{
+    color: white;
+    text-decoration: underline ;
+}
+
+.main h1{
+    text-align: center;
+    margin: 10px 0 5px;
+}
+
+time{
+    text-align: center;
+    display: block;
+    font-size: 0.7rem;
+    color: white;
+}
+
+.author{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.editrow{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.editbtn{
+    background-color: #0D7377;
+    display: inline;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    text-decoration: none;
+}

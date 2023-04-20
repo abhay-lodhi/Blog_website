@@ -1,0 +1,43 @@
+
+/* form{
+    all:unset;
+} */
+
+/* .container{
+    width: 100%;
+    height: 100%;
+    background-color: #1A1A1D !important;
+} */
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw !important;
+    height: 87vh;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A1A1D ;
+}
+
+.input{
+    color: whitesmoke;
+    min-height: 5vh;
+    width: 60vw !important;
+    background-color: inherit;
+}
+
+/* input{
+    background-color: inherit;
+} */
+
+.button{
+    border:#0D7377;
+    border-radius: 1.5rem;
+    width: 18vw !important;
+    height: 3rem;
+    color: aliceblue;
+    margin-top: 10vh;
+    background-color: #0D7377 !important;
+}
+
+ 
