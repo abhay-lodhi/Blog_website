@@ -21,6 +21,7 @@ export default function LoginPage() {
 
     if (response.ok) {
       response.json().then((userInfo) => {
+        alert("logged in succesfully");
         setUserInfo(userInfo);
         setRedirect(true);
       });

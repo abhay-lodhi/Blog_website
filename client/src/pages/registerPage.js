@@ -30,14 +30,14 @@ export default function RegisterPage(){
       }else{
         response.json().then(userInfo=>{
           alert("registered Succesfully");
-        //  setUserInfo(userInfo);
+          setUserInfo(userInfo);
           setRedirect(true);
       })  
       }
     }
 
     if(redirect){
-      return <Navigate to={'/login'}/>
+      return <Navigate to={'/'}/>
     }
 
     function toLogin(){
