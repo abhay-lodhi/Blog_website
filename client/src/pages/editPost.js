@@ -32,6 +32,7 @@ const EditPost = () => {
     const [content, setContent]= useState('Create Your post here');
     const [files,setFiles]=useState('');
     const {setUserInfo, userInfo}=useContext(userContext);
+    const [loading, setLoading] = useState(true)
 
     const [rediret, setRedirect]= useState(false);
 
@@ -43,6 +44,7 @@ const EditPost = () => {
                 setTitle(postInfo.title);
                 setContent(postInfo.content);
                 setSummary(postInfo.summary);
+                setLoading(false)
                 setFiles(postInfo.cover);
             });
 
@@ -75,8 +77,8 @@ const EditPost = () => {
 
         
     }
- 
-    if(title==''){
+    
+    if(loading){
         return <Spinner/>
     }
 
