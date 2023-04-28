@@ -36,7 +36,7 @@ export default function Home(){
     
     return (
         <>
-       <div style={{height:"87vh", marginTop:"1.8rem"}}>
+       <div style={{height:"87vh", marginTop:"1.8rem", width:"100%"}}>
         {posts.length>0 && posts.map(post=>(
             <Post key={post._id} {...post} />
         ))}

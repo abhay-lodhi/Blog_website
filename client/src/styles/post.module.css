@@ -94,6 +94,7 @@ a{
     line-height: 1.4rem;
     align-content: start;
     color: whitesmoke;
+    word-wrap: break-word;
     background-color: #343535 !important;
 }
 
